@@ -10,7 +10,6 @@ import time
 
 
 a=sys.argv[1:]
-a="--log --show --debug --upload http://localhost:8010/ --min-eyes 1 --max-eyes 3".split(" ")
 LOG=("--log" in a)
 SHOW=("--show" in a)
 V_FLIP=("--flip-v" in a)
@@ -102,6 +101,6 @@ while True:
 		cv2.imshow("Cap",frame)
 		cv2.waitKey(1)
 
-	
+
 
 c.release()
