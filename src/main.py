@@ -100,7 +100,3 @@ while True:
 	if (SHOW==True):
 		cv2.imshow("Cap",frame)
 		cv2.waitKey(1)
-
-
-
-c.release()
